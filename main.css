@@ -1,0 +1,27 @@
+/*#header {
+  display: flex;
+  width: 650px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#header div {
+  flex-flow: column-wrap;
+  align-content: flex-end;
+
+}*/
+#board {
+  display: flex;
+  width: 650px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.square {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 2px solid purple;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  font-family: monospace;
+}
